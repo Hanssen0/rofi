@@ -320,6 +320,7 @@ if wayland_enabled
         wayland_sys_protocols_dir + '/unstable/keyboard-shortcuts-inhibit/keyboard-shortcuts-inhibit-unstable-v1.xml',
         'protocols/wlr-foreign-toplevel-management-unstable-v1.xml',
         'protocols/wlr-layer-shell-unstable-v1.xml',
+        'protocols/text-input-unstable-v3.xml',
     )
 
     if wayland_protocols.version().version_compare('>=1.32')

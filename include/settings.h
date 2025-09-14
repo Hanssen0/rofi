@@ -104,6 +104,8 @@ typedef struct {
   /** Backend */
   DisplayBackend backend;
 
+  /** Wayland layer */
+  char *layer;
   /** Windows location/gravity */
   WindowLocation location;
   /** Y offset */
